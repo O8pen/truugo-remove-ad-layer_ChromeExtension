@@ -1,0 +1,1 @@
+# truugo-remove-ad-layer

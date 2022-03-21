@@ -1,0 +1,13 @@
+{
+    "name" : "truugo-remove-ad-layer_ChromeExtension",
+    "version" : "0.1",
+    "manifest_version" : 2,
+    "description" : "truugo-remove-ad-layer",
+    "content_scripts" : [
+        {
+            "js" : ["init.js"],
+            "css" : ["styles.css"],
+            "matches" : ["*://www.truugo.com/*"]
+        }
+    ]
+}
