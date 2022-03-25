@@ -1,5 +1,15 @@
 const layerad_El = document.getElementById("layer-ad");
-layerad_El.remove();
+
+console.log(layerad_El);
+
+if (layerad_El != null) {
+    layerad_El.remove();
+}
 
 const viewmessage_El = document.getElementById("view-message");
-viewmessage_El.removeAttribute("class");
+
+console.log(viewmessage_El);
+
+if (viewmessage_El != null) {
+    viewmessage_El.removeAttribute("class");
+}
